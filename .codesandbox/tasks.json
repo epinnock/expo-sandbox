@@ -11,7 +11,7 @@
   "tasks": {
     "start": {                                                                          
       "name": "start",
-      "command": "npx expo start --tunnel --port 8080", 
+      "command": "npx --yes expo@~54.0.0  start --tunnel --port 8080", 
       "runAtStart": true,
       "preview": { "port": 8080 }
     },
