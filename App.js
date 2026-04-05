@@ -1,6 +1,6 @@
-import "./onlook-preload-script.js";
 import React from "react";
-import { StyleSheet, SafeAreaView, Text } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default class App extends React.Component {
   render() {
@@ -12,8 +12,8 @@ export default class App extends React.Component {
         <Text style={styles.h2} data-oid="2rp53fr">
           Start editing to see some magic happen, even on your mobile device!
         </Text>
-        <br data-oid="b1c54fw" />
-        <br data-oid="yjth3jm" />
+        <View style={{ height: 16 }} />
+        <View style={{ height: 16 }} />
         <Text style={styles.paragraph} data-oid="s23lsqt">
           Open Expo on your mobile device with scanning the QR code in the
           application log under the start tab.
