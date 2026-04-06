@@ -1,0 +1,6 @@
+{
+  "image": "node:20.19-slim",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  }
+}
