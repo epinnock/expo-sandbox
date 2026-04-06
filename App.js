@@ -1,10 +1,11 @@
 import React from "react";
 import { StyleSheet, View, Text } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 export default class App extends React.Component {
   render() {
     return (
+      <SafeAreaProvider>
       <SafeAreaView style={styles.container} data-oid="4:j:0ap">
         <Text style={styles.h1} data-oid="_qpp9kk">
           Hello CodeSandboxes
@@ -19,6 +20,7 @@ export default class App extends React.Component {
           application log under the start tab.
         </Text>
       </SafeAreaView>
+      </SafeAreaProvider>
     );
   }
 }
