@@ -5,21 +5,21 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 export default class App extends React.Component {
   render() {
     return (
-      <SafeAreaProvider>
-      <SafeAreaView style={styles.container} data-oid="4:j:0ap">
-        <Text style={styles.h1} data-oid="_qpp9kk">
-          Hello CodeSandboxes
-        </Text>
-        <Text style={styles.h2} data-oid="2rp53fr">
-          Start editing to see some magic happen, even on your mobile device!
-        </Text>
-        <View style={{ height: 16 }} />
-        <View style={{ height: 16 }} />
-        <Text style={styles.paragraph} data-oid="s23lsqt">
-          Open Expo on your mobile device with scanning the QR code in the
-          application log under the start tab.
-        </Text>
-      </SafeAreaView>
+      <SafeAreaProvider dataSet={{ oid: "zi-ombl" }}>
+        <SafeAreaView style={styles.container} dataSet={{ oid: "4:j:0ap" }}>
+          <Text style={styles.h1} dataSet={{ oid: "_qpp9kk" }}>
+            Hello CodeSandbox
+          </Text>
+          <Text style={styles.h2} dataSet={{ oid: "2rp53fr" }}>
+            Start editing to see some magic happen, even on your mobile device!
+          </Text>
+          <View style={{ height: 16 }} dataSet={{ oid: "ghh0b9." }} />
+          <View style={{ height: 16 }} dataSet={{ oid: "qjq-ng8" }} />
+          <Text style={styles.paragraph} dataSet={{ oid: "s23lsqt" }}>
+            Open Expo on your mobile device with scanning the QR code in the
+            application log under the start tab.
+          </Text>
+        </SafeAreaView>
       </SafeAreaProvider>
     );
   }
